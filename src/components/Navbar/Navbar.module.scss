@@ -1,0 +1,26 @@
+@use "../../mixin.scss" as mixin;
+.navbar {
+  .navLink {
+    p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 38px;
+    }
+  }
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    /* secondary */
+
+    color: #d9d9d9;
+  }
+}
