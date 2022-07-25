@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "./Icons.module.scss";
-export default function Icons({src,width,padding}) {
+export default function Icons({src,size}) {
   return (
-    <div className={styles.iconContainer} style={{width:width,padding:padding}}>
+    <div className={`${styles.iconContainer} ${styles[size]}`}>
         <img src={`/img/${src}`} alt="icon" />
     </div>
   )
