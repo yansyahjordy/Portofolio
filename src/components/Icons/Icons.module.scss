@@ -27,7 +27,7 @@
 
 .small::before {
   content: "";
-  background-color: mixin.$accentcolor;
+  background-color: #4E3F72;
   width: 60px;
   height: 60px;
   position: absolute;
@@ -37,7 +37,7 @@
 }
 .big::before {
     content: "";
-    background-color: mixin.$accentcolor;
+    background-color: #4E3F72;
     width: 125px;
     height: 125px;
     position: absolute;
