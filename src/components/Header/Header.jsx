@@ -34,7 +34,7 @@ export default function Header() {
           </div>
           <div className="col-sm-7 col-lg-5 offset-sm-5 offset-lg-0">
             <motion.div className="img" whileHover={{ scale: 1.05 }}>
-              <img src="/img/logo-jordy.png" alt="logo" />
+              <img src="./img/logo-jordy.png" alt="logo" />
             </motion.div>
           </div>
         </div>

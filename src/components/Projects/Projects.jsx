@@ -39,7 +39,7 @@ export default function Projects() {
             <div className="row gy-5">
               <div className="col-12 col-lg-4">
                 <Card style={{ backgoundColor: "black" }}>
-                  <Card.Img variant="top" src="/img/projectNews.png" />
+                  <Card.Img variant="top" src="./img/projectNews.png" />
                   <Card.Body>
                     <Card.Text>Portal News</Card.Text>
                   </Card.Body>
@@ -47,7 +47,7 @@ export default function Projects() {
               </div>
               <div className="col-12 col-lg-4">
                 <Card>
-                  <Card.Img variant="top" src="/img/projectFood.jpg" />
+                  <Card.Img variant="top" src="./img/projectFood.jpg" />
                   <Card.Body>
                     <Card.Text>Food App</Card.Text>
                   </Card.Body>
@@ -55,7 +55,7 @@ export default function Projects() {
               </div>
               <div className="col-12 col-lg-4">
                 <Card>
-                  <Card.Img variant="top" src="/img/projectPokemon.jpg" />
+                  <Card.Img variant="top" src="./img/projectPokemon.jpg" />
                   <Card.Body>
                     <Card.Text>Pokedex App</Card.Text>
                   </Card.Body>
@@ -67,7 +67,7 @@ export default function Projects() {
             <div className="row gy-5">
               <div className="col-12 col-lg-4">
                 <Card>
-                  <Card.Img variant="top" src="/img/projectCrypto.jpg" />
+                  <Card.Img variant="top" src="./img/projectCrypto.jpg" />
                   <Card.Body>
                     <Card.Text>Crypto App</Card.Text>
                   </Card.Body>
@@ -75,19 +75,24 @@ export default function Projects() {
               </div>
               <div className="col-12 col-lg-4">
                 <Card>
-                  <Card.Img variant="top" src="/img/projectMetamask.png" />
+                  <Card.Img variant="top" src="./img/projectMetamask.png" />
                   <Card.Body>
                     <Card.Text>Metamask App</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
               <div className="col-12 col-lg-4">
-                <Card>
-                  <Card.Img variant="top" src="/img/projectPomodoro.png" />
-                  <Card.Body>
-                    <Card.Text>Pomodoro App</Card.Text>
-                  </Card.Body>
-                </Card>
+                <a
+                  href="https://codepen.io/yansyahjordy/pen/YzeWwLQ"
+                  target="_blank"
+                >
+                  <Card>
+                    <Card.Img variant="top" src="./img/projectPomodoro.png" />
+                    <Card.Body>
+                      <Card.Text>Pomodoro App</Card.Text>
+                    </Card.Body>
+                  </Card>
+                </a>
               </div>
             </div>
           </Carousel.Item>
