@@ -36,8 +36,8 @@ export default function Projects() {
         <h1>Projects</h1>
         <Carousel className="mt-5">
           <Carousel.Item>
-            <div className="row">
-              <div className="col-4">
+            <div className="row gy-5">
+              <div className="col-12 col-lg-4">
                 <Card style={{ backgoundColor: "black" }}>
                   <Card.Img variant="top" src="/img/projectNews.png" />
                   <Card.Body>
@@ -45,7 +45,7 @@ export default function Projects() {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
                 <Card>
                   <Card.Img variant="top" src="/img/projectFood.jpg" />
                   <Card.Body>
@@ -53,7 +53,7 @@ export default function Projects() {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
                 <Card>
                   <Card.Img variant="top" src="/img/projectPokemon.jpg" />
                   <Card.Body>
@@ -64,8 +64,8 @@ export default function Projects() {
             </div>
           </Carousel.Item>
           <Carousel.Item>
-            <div className="row">
-              <div className="col-4">
+            <div className="row gy-5">
+              <div className="col-12 col-lg-4">
                 <Card>
                   <Card.Img variant="top" src="/img/projectCrypto.jpg" />
                   <Card.Body>
@@ -73,7 +73,7 @@ export default function Projects() {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
                 <Card>
                   <Card.Img variant="top" src="/img/projectMetamask.png" />
                   <Card.Body>
@@ -81,11 +81,11 @@ export default function Projects() {
                   </Card.Body>
                 </Card>
               </div>
-              <div className="col-4">
+              <div className="col-12 col-lg-4">
                 <Card>
-                  <Card.Img variant="top" src="/img/projectPokemon.jpg" />
+                  <Card.Img variant="top" src="/img/projectPomodoro.png" />
                   <Card.Body>
-                    <Card.Text>Pokedex App.</Card.Text>
+                    <Card.Text>Pomodoro App</Card.Text>
                   </Card.Body>
                 </Card>
               </div>
